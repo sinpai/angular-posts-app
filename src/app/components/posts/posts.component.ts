@@ -71,7 +71,7 @@ export class PostsComponent implements OnInit {
   }
 
   toggleEditPost(post) {
-    this.posts[post.id - 1].editing = true;
+    post.editing = true;
   }
 
   deletePost(post) {
