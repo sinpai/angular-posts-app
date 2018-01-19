@@ -1,0 +1,14 @@
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.buttons button {
+    margin-left: 10px;
+}
+
+.card-title {
+    text-align: center;
+    font-weight: 600;
+}
